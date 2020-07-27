@@ -1,5 +1,9 @@
-body, html {
+body, 
+html, 
+header, 
+.view {
     height: 100%;
+    position: fixed;
   }
 
 .navbar {
@@ -13,13 +17,13 @@ body, html {
     float:right;
 }
   /* Background image */
-  .bg {
+  .view {
     background-image: url(https://images.pexels.com/photos/1774986/pexels-photo-1774986.jpeg?cs=srgb&dl=white-surface-1774986.jpg&fm=jpg);
-    height: 100%;
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
   }
+  
 
   .container {
   }
