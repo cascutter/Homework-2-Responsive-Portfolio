@@ -58,8 +58,14 @@ change size */
     background-color: black;
 }
 
-:hover.flex-item {
-    outline-width: 2rem;
-    outline-color: whitesmoke;
-    flex-basis: auto;
+h2 {
+  color: whitesmoke;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
 }
+
+h3 {
+  color: whitesmoke;
+  font-family: 'Raleway', sans-serif;
+}
+
