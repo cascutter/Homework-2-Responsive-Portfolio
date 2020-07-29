@@ -70,3 +70,8 @@ h3 {
   font-family: 'Raleway', sans-serif;
 }
 
+.footer-list li {
+  display: inline-block !important;
+}
+
+/* @media screen and (min-width: 400) */
