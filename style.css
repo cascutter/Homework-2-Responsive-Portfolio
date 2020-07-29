@@ -4,8 +4,11 @@
 /* Background image */
 body {
     background-image: url(https://images.pexels.com/photos/1774986/pexels-photo-1774986.jpeg?cs=srgb&dl=white-surface-1774986.jpg&fm=jpg);
-    background-position: center;
+    background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: whitesmoke;
   }
 /* Navbar */
 .navbar {
@@ -40,13 +43,13 @@ p {
       text-align: left;
   }
 
-  
+/*  
 @media screen and (max-width: 768px) {
       body {
     background-image: url(https://images.pexels.com/photos/1774986/pexels-photo-1774986.jpeg?cs=srgb&dl=white-surface-1774986.jpg&fm=jpg);
       }
   }
-
+*/
 .portfolio-flex-box {
     display: flex;
     flex-wrap: wrap;
