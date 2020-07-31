@@ -13,27 +13,29 @@ body {
 /* Navbar */
 .navbar {
     font-family: 'Montserrat Subrayada', sans-serif;
-    font-size: 400;
+    font-weight: 400;
 }
 /* Body styling */
 h1 {
       font-family: 'Montserrat Subrayada', sans-serif;
       padding-top: 2rem;
       text-align: left;
-      font-size: 4rem;
+      font-size: 200%;
       color: whitesmoke;
   }
 
 .container {
-    width: 1024px;
-    margin: 40px auto;
+    width: 100%;
+    margin: 40px auto 0;
     padding: 2rem;
+    padding-bottom: 3rem;
     background-color: black;
     }
 
 .img-me {
-  max-width: 350px;
+  width: 90%;
   padding-top: 2rem;
+  ;
 }
 
 .img {
@@ -80,11 +82,12 @@ h3 {
   color: whitesmoke;
   font-family: 'Raleway', sans-serif;
 }
-
-/*.footer { 
+ 
+.footer { 
   width: 100%;
   text-align: center;
   position: fixed;
+  bottom: 0;
  }
 
 .footer ul { 
@@ -98,9 +101,12 @@ h3 {
 .list-inline {
   display: inline;
 }
-
+/*  
 .sticky-bottom {
   position: sticky;
   width: 100%;
 }
+*/
+@media screen (min-width: ) {
 
+}
