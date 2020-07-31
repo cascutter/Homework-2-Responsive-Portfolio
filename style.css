@@ -23,30 +23,29 @@ h1 {
       font-size: 200%;
       color: whitesmoke;
   }
-
+/* Container styling for black background color and padding */
 .container {
-    width: 100%;
+    width: 90%;
     margin: 40px auto 0;
     padding: 2rem;
     padding-bottom: 3rem;
     background-color: black;
     }
-
+/* Photo of Casandra */
 .img-me {
   width: 90%;
   padding-top: 2rem;
   ;
 }
-
+/* Portfolio images */
 .img {
       padding: 2rem;
       padding-bottom: 0rem;
       object-fit: scale-down;
-      width: 250px;
-      height: 250px;
+      width: 100%;
       overflow: hidden;
   }
-
+/* Paragraphs */
 p {
       padding-top: 2rem;
       font-family: 'Raleway', sans-serif;
@@ -54,34 +53,34 @@ p {
       color: whitesmoke;
       text-align: left;
   }
-
+/* Flex box for portfolio */
 .portfolio-flex-box {
     display: flex;
     flex-wrap: wrap;
-    width: 1024px;
+    width: 100%;
     padding: 2rem;
     margin: 40px auto;
-    justify-content: space-evenly;
+    justify-content: space-evenly;  
     background-color: black;
-}
-
+  }
+/*  */
 h2 {
   color: whitesmoke;
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
-
+/* Contact form headers */
 h3 {
   color: whitesmoke;
   font-family: 'Raleway', sans-serif;
 }
- 
+ /* Sticky footer */
 .footer { 
   width: 100%;
   text-align: center;
   position: fixed;
   bottom: 0;
- }
+}
 
 .footer ul { 
   list-style: none;
@@ -94,7 +93,7 @@ h3 {
 .list-inline {
   display: inline;
 }
-
+/* Media queries for screen size changes */
 @media (min-width: 576px) {
   h1 {
     font-size: 300%;
