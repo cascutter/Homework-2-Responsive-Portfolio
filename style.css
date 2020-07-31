@@ -81,13 +81,13 @@ h3 {
   font-family: 'Raleway', sans-serif;
 }
 
-footer { 
+.footer { 
   width: 100%;
   text-align: center;
   position: fixed;
  }
 
-footer ul { 
+.footer ul { 
   list-style: none;
   width: 100%;
   left: 0;
@@ -104,8 +104,8 @@ footer ul {
   width: 100%;
 }
 
-/* @media screen and (min-width: 400px; max-width: 800px) { 
+/*@media screen and (min-width: 400px; max-width: 800px) { 
   .header .main .footer {
     width: 100%;
   }
-   */
+  
