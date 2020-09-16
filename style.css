@@ -34,17 +34,41 @@ h1 {
 /* Photo of Casandra */
 .img-me {
   width: 90%;
-  padding-top: 2rem;
-  ;
+  margin-top: 2rem;
+  box-shadow: 0px 0px 20px 5px whitesmoke;
 }
-/* Portfolio images */
-.img {
-      padding: 2rem;
-      padding-bottom: 0rem;
-      object-fit: scale-down;
-      width: 100%;
-      overflow: hidden;
-  }
+
+.card {
+  display: inline-flex;
+  margin-bottom: 2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.card-img-top {
+  max-height: 9rem;
+}
+
+.card-title {
+  text-align: center;
+  font-family:'Montserrat Subrayada', sans-serif;
+}
+
+.card-text {
+  text-align: center;
+  color: black;
+  font-size: medium;
+}
+
+.btn {
+  display: inline-block;
+  margin-left: 1.5rem;
+}
+
+#portfolioCards {
+  box-shadow: 0px 0px 20px 5px whitesmoke;
+}
+
 /* Paragraphs */
 p {
       padding-top: 2rem;
@@ -53,27 +77,23 @@ p {
       color: whitesmoke;
       text-align: left;
   }
-/* Flex box for portfolio */
-.portfolio-flex-box {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 2rem;
-    margin: 40px auto;
-    justify-content: space-evenly;  
-    background-color: black;
-  }
-/*  */
+
 h2 {
   color: whitesmoke;
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
 /* Contact form headers */
-h3 {
+
+#email,
+#phone,
+#resume {
+  margin-bottom: 2rem;
   color: whitesmoke;
   font-family: 'Raleway', sans-serif;
+  justify-content: center;
 }
+
  /* Sticky footer */
 .footer { 
   width: 100%;
