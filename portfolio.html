@@ -7,6 +7,7 @@
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
         crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/9d49fb545e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Raleway:wght@600&display=swap" rel="stylesheet">
     <title>Casandra Cutter</title>
@@ -36,7 +37,7 @@
     </header>
 
     <main>
-      <div class="container">
+      <div class="container" id="portfolio">
         <div class="row">
           <!-- Portfolio header -->
           <div class="col-sm-12">
@@ -44,38 +45,51 @@
             <h1>Portfolio</h1>
             </section>
           </div>
-          <!-- Portfolio image hyperlinks to GitHub --> 
-        <div class="portfolio-flex-box">
-          <div class="portfolio-item">
-            <a href="https://github.com/cascutter/Homework-1-Code-Refactor">
-              <img src="assets/code-refactor.png" alt="Screenshot of code refactor" class="img">
-            </a>
+        </div>  
+          <!-- Portfolio image hyperlinks to GitHub -->
+        <div class="container" id="portfolioCards">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/Night In.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Night In</h5>
+            <p class="card-text">A mobile-first app that uses multiple APIs to retrieve 
+              movie selections, recipes, and cocktails based on user input.
+            </p>
+            <a href="https://github.com/cascutter/Project-1-Night-In" target="_blank" class="btn btn-outline-dark">Github</a>
+            <a href="https://cascutter.github.io/Project-1-Night-In/" target="_blank" class="btn btn-outline-dark">Deployed</a>
           </div>
-          <div class="portfolio-item">
-            <a href="https://github.com/cascutter/Homework-2-Responsive-Portfolio/tree/master/assets/card%20layout">
-              <img src="assets/card layout/card.png" alt="Basic card using Bootstrap" class="img">
-            </a>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/Day Planner.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Day Planner</h5>
+            <p class="card-text">A simple calendar application that allows the user to 
+              save events for each hour of the work day.
+            </p>
+            <a href="https://github.com/cascutter/Homework-5-Day-Planner" target="_blank" class="btn btn-outline-dark">Github</a>
+            <a href="https://cascutter.github.io/Homework-5-Day-Planner/" target="_blank" class="btn btn-outline-dark">Deployed</a>
           </div>
-          <div class="portfolio-item">
-            <a href="https://github.com/cascutter/Homework-2-Responsive-Portfolio/tree/master/assets/basic%20css">
-              <img src="assets/basic css/Basic-CSS.png" alt="portfolio image" class="img">
-            </a>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/Weather Dash.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Weather Dashboard</h5>
+            <p class="card-text">A mobile-first application that uses OpenWeather API to retrieve
+              weather data for cities input by the user.
+            </p>
+            <a href="https://github.com/cascutter/Homework-6-Weather-Dashboard" target="_blank" class="btn btn-outline-dark">Github</a>
+            <a href="https://cascutter.github.io/Homework-6-Weather-Dashboard/" target="_blank" class="btn btn-outline-dark">Deployed</a>
           </div>
-          <div class="portfolio-item">
-            <!--<a href="">-->
-              <img src="assets/IMG_3102.PNG" 
-              alt="Basic CSS layout" class="img">
-            </a>
-          </div>
-          <div class="portfolio-item">
-            <!--<a href="">-->
-              <img src="assets/IMG_3102.PNG" alt="portfolio image" class="img">
-            </a>
-          </div>
-          <div class="portfolio-item">
-            <!--<a href="">-->
-              <img src="assets/IMG_3102.PNG" alt="portfolio image" class="img">
-            </a>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/Password Generator.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Password Generator</h5>
+            <p class="card-text">An application that generates a random 
+              password based on user-selected criteria. 
+            </p>
+            <a href="https://github.com/cascutter/Homework-3-Password-Generator" target="_blank" class="btn btn-outline-dark">Github</a>
+            <a href="https://cascutter.github.io/Homework-3-Password-Generator/" target="_blank" class="btn btn-outline-dark">Deployed</a>
           </div>
         </div>
       </div>
@@ -88,10 +102,10 @@
                   <li class="nav-item"> Find me on:
                   </li>
                   <li class="nav-item list-inline-item">
-                  <a class="nav-link" href="https://linkedin.com/in/casandra-cutter-ab7a361a9">LinkedIn</a>
+                  <a class="nav-link" href="https://linkedin.com/in/casandra-cutter-ab7a361a9" target="_blank">LinkedIn</a>
                   </li>
                   <li class="nav-item list-inline-item">
-                  <a class="nav-link" href="https://github.com/cascutter">GitHub</a>
+                  <a class="nav-link" href="https://github.com/cascutter" target="_blank">GitHub</a>
                   </li>
               </ul>
           </nav>
