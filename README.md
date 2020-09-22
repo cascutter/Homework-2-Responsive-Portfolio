@@ -24,7 +24,7 @@ This project was created to show an understanding of the use of Boostrap to crea
 </footer>
 ```
 
-<img = assets/Screen Shot 2020-09-21 at 9.34.35 PM.png>
+<img="assets/Screen Shot 2020-09-21 at 9.34.35 PM.png">
 
 ## Author
 * Casandra Cutter 
