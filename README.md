@@ -24,7 +24,7 @@ This project was created to show an understanding of the use of Boostrap to crea
 </footer>
 ```
 
-<a href="https://github.com/cascutter/Homework-2-Responsive-Portfolio/blob/master/assets/Screen%20Shot%202020-09-21%20at%209.34.35%20PM.png">
+<"https://github.com/cascutter/Homework-2-Responsive-Portfolio/blob/master/assets/Screen%20Shot%202020-09-21%20at%209.34.35%20PM.png">
 
 ## Author
 * Casandra Cutter 
