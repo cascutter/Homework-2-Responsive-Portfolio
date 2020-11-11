@@ -1,186 +1,192 @@
-            * {
-                box-sizing: border-box;
-            }
-            /* Background image */
-            
-            body {
-                background-image: url(https://images.pexels.com/photos/1774986/pexels-photo-1774986.jpeg?cs=srgb&dl=white-surface-1774986.jpg&fm=jpg);
-                background-position: center center;
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-                background-color: whitesmoke;
-            }
-            /* Navbar */
-            
-            .navbar {
-                font-family: 'Montserrat Subrayada', sans-serif;
-                font-weight: 400;
-            }
-            /* Body styling */
-            
+        * {
+            box-sizing: border-box;
+        }
+        /* Background image */
+        
+        body {
+            background-image: url(https://images.pexels.com/photos/1774986/pexels-photo-1774986.jpeg?cs=srgb&dl=white-surface-1774986.jpg&fm=jpg);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: whitesmoke;
+        }
+        /* Navbar */
+        
+        .navbar {
+            font-family: 'Montserrat Subrayada', sans-serif;
+            font-weight: 400;
+        }
+        /* Body styling */
+        
+        h1 {
+            font-family: 'Montserrat Subrayada', sans-serif;
+            padding-top: 2rem;
+            text-align: left;
+            font-size: 200%;
+            color: whitesmoke;
+        }
+        /* Container styling for black background color and padding */
+        
+        .container {
+            width: 90%;
+            margin: 40px auto 0;
+            padding: 2rem;
+            padding-bottom: 5rem;
+            background-color: black;
+        }
+        /* Photo of Casandra */
+        
+        .img-me {
+            width: 90%;
+            margin-top: 2rem;
+            box-shadow: 0px 0px 20px 5px whitesmoke;
+        }
+        
+        .card {
+            display: inline-block;
+            margin-bottom: 2rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            font-family: 'Raleway', sans-serif;
+            min-width: 18rem;
+        }
+        
+        .card-img-top {
+            max-height: 9rem;
+            min-height: 144px;
+        }
+        
+        .card-title {
+            text-align: center;
+            font-family: 'Montserrat Subrayada', sans-serif;
+        }
+        
+        .card-text {
+            text-align: center;
+            color: black;
+            font-size: medium;
+        }
+        
+        .btn {
+            display: inline-block;
+            margin-left: 1.5rem;
+        }
+        
+        #portfolioCards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            box-shadow: 0px 0px 20px 5px whitesmoke;
+        }
+        
+        h3 {
+            color: whitesmoke;
+            font-family: 'Montserrat Subrayada', sans-serif;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        /* Paragraphs */
+        
+        p {
+            padding-top: 1rem;
+            font-family: 'Raleway', sans-serif;
+            font-size: large;
+            color: whitesmoke;
+            text-align: left;
+        }
+        
+        h2 {
+            color: whitesmoke;
+            font-family: 'Raleway', sans-serif;
+            text-align: center;
+        }
+        /* Contact form */
+        
+        form {
+            margin-bottom: 2rem;
+        }
+        
+        .pure-group {
+            margin-bottom: 2rem;
+            color: black;
+            font-family: 'Raleway', sans-serif;
+            justify-content: center;
+        }
+        
+        h2 {
+            color: whitesmoke;
+            font-family: 'Montserrat Subrayada', sans-serif;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        input {
+            width: 50%;
+        }
+        
+        textarea {
+            width: 75%;
+        }
+        
+        .is-center {
+            text-align: center;
+        }
+        
+        .button-success {
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            background: rgb(10, 142, 26);
+        }
+        
+        .button-xlarge {
+            font-size: 125%;
+            margin-top: 2rem;
+        }
+        
+        #name,
+        #email {
+            width: 50%;
+        }
+        
+        .honeypot-field {
+            display: none;
+        }
+        /* Sticky footer */
+        
+        .footer {
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+        }
+        
+        .footer ul {
+            list-style: none;
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            background-color: whitesmoke;
+        }
+        
+        .list-inline {
+            display: inline;
+        }
+        /* Media queries for screen size changes */
+        
+        @media (min-width: 576px) {
             h1 {
-                font-family: 'Montserrat Subrayada', sans-serif;
-                padding-top: 2rem;
-                text-align: left;
-                font-size: 200%;
-                color: whitesmoke;
+                font-size: 300%;
             }
-            /* Container styling for black background color and padding */
-            
-            .container {
-                width: 90%;
-                margin: 40px auto 0;
-                padding: 2rem;
-                padding-bottom: 5rem;
-                background-color: black;
+        }
+        
+        @media (min-width: 992px) {
+            h1 {
+                font-size: 400%;
+                padding-top: 4rem;
             }
-            /* Photo of Casandra */
-            
             .img-me {
-                width: 90%;
-                margin-top: 2rem;
-                box-shadow: 0px 0px 20px 5px whitesmoke;
+                width: 70%;
             }
-            
-            .card {
-                display: inline-block;
-                margin-bottom: 2rem;
-                margin-left: 1rem;
-                margin-right: 1rem;
-                font-family: 'Raleway', sans-serif;
-                min-width: 18rem;
-            }
-            
-            .card-img-top {
-                max-height: 9rem;
-                min-height: 144px;
-            }
-            
-            .card-title {
-                text-align: center;
-                font-family: 'Montserrat Subrayada', sans-serif;
-            }
-            
-            .card-text {
-                text-align: center;
-                color: black;
-                font-size: medium;
-            }
-            
-            .btn {
-                display: inline-block;
-                margin-left: 1.5rem;
-            }
-            
-            #portfolioCards {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                box-shadow: 0px 0px 20px 5px whitesmoke;
-            }
-            
-            h3 {
-                color: whitesmoke;
-                font-family: 'Montserrat Subrayada', sans-serif;
-                text-align: center;
-                margin-bottom: 2rem;
-            }
-            /* Paragraphs */
-            
-            p {
-                padding-top: 1rem;
-                font-family: 'Raleway', sans-serif;
-                font-size: large;
-                color: whitesmoke;
-                text-align: left;
-            }
-            
-            h2 {
-                color: whitesmoke;
-                font-family: 'Raleway', sans-serif;
-                text-align: center;
-            }
-            /* Contact form */
-            
-            form {
-                margin-bottom: 2rem;
-            }
-            
-            .pure-group,
-            .thankyou_message {
-                margin-bottom: 2rem;
-                color: whitesmoke;
-                font-family: 'Raleway', sans-serif;
-                justify-content: center;
-            }
-            
-            input {
-                width: 50%;
-            }
-            
-            textarea {
-                width: 75%;
-            }
-            
-            .is-center {
-                text-align: center;
-            }
-            
-            .button-success {
-                color: white;
-                border-radius: 4px;
-                text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-                background: rgb(10, 142, 26);
-            }
-            
-            .button-xlarge {
-                font-size: 125%;
-                margin-top: 2rem;
-            }
-            
-            #name,
-            #email {
-                width: 50%;
-            }
-            
-            .honeypot-field {
-                display: none;
-            }
-            /* Sticky footer */
-            
-            .footer {
-                width: 100%;
-                text-align: center;
-                position: fixed;
-                bottom: 0;
-            }
-            
-            .footer ul {
-                list-style: none;
-                width: 100%;
-                left: 0;
-                bottom: 0;
-                background-color: whitesmoke;
-            }
-            
-            .list-inline {
-                display: inline;
-            }
-            /* Media queries for screen size changes */
-            
-            @media (min-width: 576px) {
-                h1 {
-                    font-size: 300%;
-                }
-            }
-            
-            @media (min-width: 992px) {
-                h1 {
-                    font-size: 400%;
-                    padding-top: 4rem;
-                }
-                .img-me {
-                    width: 70%;
-                }
-            }
+        }
