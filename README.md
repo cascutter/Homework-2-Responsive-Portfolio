@@ -28,7 +28,7 @@ This project was created to show an understanding of the use of Boostrap to crea
 
 ## Author
 * Casandra Cutter 
-* Contact form from <a src="https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server">dwyl</a>
+* Contact form from <a href="https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server">dwyl</a>
 
 
 ## License
